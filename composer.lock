@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8bc03f09a01a4a2ad00d801dabcf04ab",
+    "content-hash": "9280ac2a16aab665bb580c128d3b27ee",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -913,6 +913,145 @@
                 "source": "https://github.com/TYPO3-Headless/headless/tree/v3.1.1"
             },
             "time": "2022-08-03T21:45:33+00:00"
+        },
+        {
+            "name": "friendsoftypo3/headless_news",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-Headless/headless_news.git",
+                "reference": "e9adc865c94ec8c2e4896e11d4e85bfca2b8dabc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-Headless/headless_news/zipball/e9adc865c94ec8c2e4896e11d4e85bfca2b8dabc",
+                "reference": "e9adc865c94ec8c2e4896e11d4e85bfca2b8dabc",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "^10.0 || ^11.5"
+            },
+            "suggest": {
+                "friendsoftypo3/headless": "^2.0 || ^3.0",
+                "georgringer/news": "^9.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "headless_news"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Tymoteusz Motylewski",
+                    "role": "Head"
+                },
+                {
+                    "name": "Łukasz Uznański",
+                    "role": "Developer"
+                },
+                {
+                    "name": "TYPO3 PWA Initiative",
+                    "email": "extensions@macopedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This extension provides integration with news to output content from TYPO3 in JSON format.",
+            "keywords": [
+                "headless",
+                "json",
+                "news",
+                "pwa",
+                "typo3"
+            ],
+            "support": {
+                "issues": "https://github.com/TYPO3-Headless/headless_news/issues",
+                "source": "https://github.com/TYPO3-Headless/headless_news/tree/v2.0.0"
+            },
+            "time": "2022-07-05T13:54:50+00:00"
+        },
+        {
+            "name": "georgringer/news",
+            "version": "9.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/georgringer/news.git",
+                "reference": "dbecd7289de6554c06b733de7c8337c52cb3a130"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/georgringer/news/zipball/dbecd7289de6554c06b733de7c8337c52cb3a130",
+                "reference": "dbecd7289de6554c06b733de7c8337c52cb3a130",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "^10.4 || ^11"
+            },
+            "conflict": {
+                "symfony/finder": "2.7.44 || 2.8.37 || 3.4.7 || 4.0.7"
+            },
+            "replace": {
+                "typo3-ter/news": "self.version"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.1",
+                "typo3/cms-install": "^10.4 || ^11"
+            },
+            "suggest": {
+                "georgringer/numbered-pagination": "Improved pagination API",
+                "reelworx/rx-shariff": "GDPR compliant social sharing"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "news",
+                    "app-dir": ".Build",
+                    "web-dir": ".Build/public"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GeorgRinger\\News\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Georg Ringer",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Versatile news system based on Extbase & Fluid and using the latest technologies provided by TYPO3 CMS.",
+            "homepage": "https://extensions.typo3.org/extension/news",
+            "keywords": [
+                "article",
+                "extension",
+                "news",
+                "typo3"
+            ],
+            "support": {
+                "docs": "https://docs.typo3.org/p/georgringer/news/main/en-us/",
+                "issues": "https://github.com/georgringer/news/issues",
+                "source": "https://github.com/georgringer/news"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/GeorgRinger/10",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/georgringer",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2022-04-26T17:07:12+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2322,7 +2461,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/site_package",
-                "reference": "41a9d582e64f20171e174e249267c05b16021cc6"
+                "reference": "0e5ea271d4af53993e5d3113538d19ea7d2e8ad4"
             },
             "require": {
                 "typo3/cms-core": "^11.5"
@@ -2331,6 +2470,11 @@
             "extra": {
                 "typo3/cms": {
                     "extension-key": "site_package"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Pwademo\\Sitepackage\\": "Classes"
                 }
             },
             "authors": [
