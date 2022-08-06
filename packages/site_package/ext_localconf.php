@@ -10,11 +10,10 @@ defined('TYPO3') or die();
 (static function() {
     ExtensionUtility::configurePlugin(
         'SitePackage',
-        'DemoPlugin',
+        'WatPlugin',
         [
-            \Pwademo\Sitepackage\Controller\DemoController::class => 'demo',
+            \Pwademo\Sitepackage\Controller\WatController::class => 'wat',
         ],
-        // non-cacheable actions
         []
     );
 })();

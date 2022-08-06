@@ -7,7 +7,7 @@ defined('TYPO3') || die();
 
 call_user_func(
     static function ($extensionKey): void {
-        ExtensionUtility::registerPlugin('SitePackage', 'DemoPlugin', 'Demo plugin');
+        ExtensionUtility::registerPlugin('SitePackage', 'WatPlugin', 'Wat plugin');
         ExtensionManagementUtility::allowTableOnStandardPages('tx_sitepackage_slide');
     },
     'site_package'

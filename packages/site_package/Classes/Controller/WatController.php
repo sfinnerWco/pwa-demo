@@ -7,9 +7,9 @@ namespace Pwademo\Sitepackage\Controller;
 use TYPO3\CMS\Core\Http\JsonResponse;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
-class DemoController extends ActionController
+class WatController extends ActionController
 {
-    public function demoAction(): JsonResponse
+    public function watAction(): JsonResponse
     {
         return new JsonResponse([['item' => 'name']]);
     }
